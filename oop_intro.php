@@ -46,8 +46,21 @@
     echo $banana->retrieve_your_name();
 
     echo "<br>";
-    
+
     echo $green->get_color();
     echo "<br>";
     echo $yellow->get_color();
+
+
+    // You can change a property value outside the class
+
+    class Money{
+        public  $pounds;
+    }
+
+    $get_money = new Money();
+    $get_money->pounds = "Naira";
+
+    echo "<br>";
+    echo $get_money->pounds;
 ?>
