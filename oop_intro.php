@@ -30,6 +30,7 @@
 
     // Created a new object / instantiated the class
     $apple = new Fruit();
+
     $banana = new Fruit();
 
     $green = new Fruit();
@@ -63,4 +64,8 @@
 
     echo "<br>";
     echo $get_money->pounds;
+
+
+    // PHP instanceof - It is used to check if an object belongs to a specofic class
+    var_dump($apple instanceof Fruit);
 ?>
