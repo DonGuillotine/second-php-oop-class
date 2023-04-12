@@ -4,4 +4,19 @@
     
     */
 
+    class Fruit{
+        // Properties
+        public $name;
+        public $color;
+
+
+        // Methods
+        function insert_your_name($name){
+            $this->name = $name;
+        }
+
+        function retrieve_your_name(){
+            return $this->name;
+        }
+    }
 ?>
