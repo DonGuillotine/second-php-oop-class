@@ -55,7 +55,7 @@
     // You can change a property value outside the class
 
     class Money{
-        public  $pounds;
+        public $pounds;
     }
 
     $get_money = new Money();
