@@ -19,4 +19,15 @@
             return $this->name;
         }
     }
+
+    // Created a new object / instantiated the class
+    $apple = new Fruit();
+    $banana = new Fruit();
+
+    $apple->insert_your_name('Applepie');
+    $banana->insert_your_name('Bananapie');
+
+    echo $apple->retrieve_your_name();
+    echo "<br>";
+    echo $banana->retrieve_your_name();
 ?>
