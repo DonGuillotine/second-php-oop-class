@@ -13,4 +13,6 @@
             echo "JavaScript is $this->name";
         }
     }
+
+    $kenneth = new JavaScript("Easy")
 ?>
