@@ -8,7 +8,7 @@
             $this->name = $name;
             $this->color = $color;
         }
-        public function value(){
+        protected function value(){
             echo "The value of {$this->name} is useless and the color is {$this->color}.";
         }
     }   
@@ -17,10 +17,10 @@
     class Nigeria extends Money{
         public function message(){
             echo "Dollar is much better!";
+            $this->value();
         }
     }
 
     $naira = new Nigeria("Naira", "Grey");
     $naira->message();
-    $naira->value();
 ?>
