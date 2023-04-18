@@ -33,4 +33,7 @@
 
      $developers = new PhpStudents("Ebuka", "Hewlett Peckett", "XAMPP");
      $developers->message();
+
+
+     // Use the final Keyword to prevent class inheritance or to prevent method overriding
 ?>
