@@ -13,7 +13,7 @@
         }
 
         private function set_height($age){
-            this->height = $age;
+            // this->height = $age;
         }
     }
 
@@ -23,6 +23,6 @@
     // $flutter->height;
 
     $flutter->set_name('50');
-    $flutter->set_color('000');
-    $flutter->set_height('122');
+    // $flutter->set_color('000');
+    // $flutter->set_height('122');
 ?>
