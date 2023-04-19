@@ -6,5 +6,6 @@
         }
     }
 
+    // Class name followed by the Scope Resolution Operator
     Chelsea::winners();
 ?>
