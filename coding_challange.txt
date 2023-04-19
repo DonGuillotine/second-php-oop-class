@@ -1,1 +1,4 @@
 Write an abstract class named "Shape" that has an abstract method "getArea". Create two concrete classes "Rectangle" and "Circle" that extend the "Shape" class and implement the "getArea" method for each shape.
+
+
+Done~!
