@@ -20,6 +20,25 @@
             self::welcome();
         }
     }
-    
+
     new Greeting();
+
+// When a child class is inheriting from a parent class. The public or protected static method can be accessed with the "parent" keyword then "::"
+    class Domain{
+        protected static function getWebsiteName(){
+            return "kodex.com";
+        }
+    }
+
+    class DomainKodex extends Domain{
+        public $websiteName;
+
+        public function __construct()
+        {
+            $this->websiteName = parent::getWebsiteName();
+        }
+    }
+
+    $domainKodex = new DomainKodex;
+    echo $domainKodex->websiteName;
 ?>
